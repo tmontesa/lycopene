@@ -1,18 +1,46 @@
-01. tool
-02. class_name
-03. extends
-04. # docstring
+tool
+class_name ClassName
+extends InheritedClass
 
-05. signals
-06. enums
-07. constants
-08. exported variables
-09. public variables
-10. private variables
-11. onready variables
+# A brief description of the class's role and functionality.
+# Longer description.
 
-12. optional built-in virtual _init method
-13. built-in virtual _ready method
-14. remaining built-in virtual methods
-15. public methods
-16. private methods
+# ======================================
+# Preloads
+# ======================================
+
+	# preloads
+
+# ======================================
+# Properties
+# ======================================
+
+	# signals
+	# enums
+	# constants
+	# exported variables
+	# public variables
+	# _private variables 
+	# onready variables
+
+# ======================================
+# Overrides
+# ======================================
+
+	# init
+	# ready
+	# miscellaneous
+
+# ======================================
+# Public
+# ======================================
+
+func public_method(arg1: Arg1Type, arg2: Arg2Type) -> OutputType:
+	pass
+
+# ======================================
+# Private
+# ======================================
+
+func _private_method():
+	pass
