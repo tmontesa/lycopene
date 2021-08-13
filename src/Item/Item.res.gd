@@ -1,7 +1,11 @@
 extends Resource
 class_name Item
 
-export(String) var id
-export(String) var name
-export(Texture) var texture
-export(Array, String) var tags = []
+# ======================================
+# Properties
+# ======================================
+
+export var id : String = ""
+export var title : String = ""
+export var texture : Texture = null
+export var tags : Array = [] 

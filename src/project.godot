@@ -13,9 +13,21 @@ _global_script_classes=[ {
 "class": "Item",
 "language": "GDScript",
 "path": "res://Item/Item.res.gd"
+}, {
+"base": "Node",
+"class": "ItemStorage",
+"language": "GDScript",
+"path": "res://ItemStorage/ItemStorage.gd"
+}, {
+"base": "Node",
+"class": "ItemStorageSlot",
+"language": "GDScript",
+"path": "res://ItemStorage/ItemStorageSlot.gd"
 } ]
 _global_script_class_icons={
-"Item": ""
+"Item": "",
+"ItemStorage": "",
+"ItemStorageSlot": ""
 }
 
 [application]

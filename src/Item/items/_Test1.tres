@@ -4,6 +4,6 @@
 
 [resource]
 script = ExtResource( 1 )
-id = "test"
-name = "Test Item"
+id = "_test1"
+title = "Test Item 1"
 tags = [  ]

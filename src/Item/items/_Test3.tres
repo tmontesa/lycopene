@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Item/Item.res.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+id = "_test3"
+title = "Test Item 3"
+tags = [  ]
