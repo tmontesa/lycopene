@@ -25,7 +25,7 @@ func add_item(item : Item, n : int) -> void:
 	if (i >= 0):
 		slots[i].add_amount(n)
 	else:
-		var new_item_slot = ItemStorageSlot.new(item, n)
+		var new_item_slot : ItemStorageSlot = ItemStorageSlot.new(item, n)
 		slots.append(new_item_slot)
 
 func remove_item(item : Item, n : int) -> void:

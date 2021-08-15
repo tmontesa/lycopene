@@ -23,11 +23,23 @@ _global_script_classes=[ {
 "class": "ItemStorageSlot",
 "language": "GDScript",
 "path": "res://ItemStorage/ItemStorageSlot.gd"
+}, {
+"base": "Node",
+"class": "Player",
+"language": "GDScript",
+"path": "res://Player/Player.gd"
+}, {
+"base": "Node",
+"class": "Pomodoro",
+"language": "GDScript",
+"path": "res://Pomodoro/Pomodoro.gd"
 } ]
 _global_script_class_icons={
 "Item": "",
 "ItemStorage": "",
-"ItemStorageSlot": ""
+"ItemStorageSlot": "",
+"Player": "",
+"Pomodoro": ""
 }
 
 [application]

@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Pomodoro/Pomodoro.gd" type="Script" id=1]
+
+[node name="Pomodoro" type="Node"]
+script = ExtResource( 1 )
+
+[node name="WorkTimer" type="Timer" parent="."]
+
+[node name="ShortBreakTimer" type="Timer" parent="."]
+
+[node name="LongBreakTimer" type="Timer" parent="."]
+
+[connection signal="timeout" from="WorkTimer" to="." method="_work_timer_finished"]
+[connection signal="timeout" from="ShortBreakTimer" to="." method="_short_break_timer_finished"]
+[connection signal="timeout" from="LongBreakTimer" to="." method="_long_break_timer_finished"]
